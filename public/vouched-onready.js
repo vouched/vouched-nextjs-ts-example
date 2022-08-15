@@ -84,10 +84,10 @@ const config = {
   },
 };
 
-const vouchedOnLoad = () => {
+const vouchedOnReady = () => {
   var vouched = window["Vouched"]({ ...config });
   console.log("mount vouched-element");
   vouched.mount("#vouched-element");
 };
 
-export default vouchedOnLoad;
+export default vouchedOnReady;
