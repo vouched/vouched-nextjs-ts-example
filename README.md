@@ -6,7 +6,7 @@ This code example shows how to add the Vouched JS Plugin to a Next.js app with T
 
 Fill in `appId` in `public/vouched-onready.js` with your Public Key. To obtain one, create a [Vouched account](https://www.vouched.id/get-started/) and generate a key from your [Vouched dashboard](https://docs.vouched.id/docs/manage-keys).
 
-Next, run `yarn install`, followed by `yarn dev`. Go to [http://localhost:3000](http://localhost:3000) and you should see the plugin loaded. You can inspect the console to see provided messages as you progress through the verification process.
+Next, run `npm ci`, followed by `npm run dev`. Go to [http://localhost:3000](http://localhost:3000) and you should see the plugin loaded. You can inspect the console to see provided messages as you progress through the verification process.
 
 ## Learn More
 
